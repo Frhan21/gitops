@@ -8,9 +8,9 @@ metadata:
 spec:
   project: course
   source:
-    repoURL: "https://github.com/rezanaipospos/gitops.git"  # <- GANTI
+    repoURL: "https://github.com/Frhan21/gitops.git" # <- GANTI
     targetRevision: HEAD
-    path: bootstrap/apps  # folder berisi child Application YAMLs
+    path: bootstrap/apps # folder berisi child Application YAMLs
   destination:
     server: "https://kubernetes.default.svc"
     namespace: argocd
